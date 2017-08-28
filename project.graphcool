@@ -1,0 +1,41 @@
+# project: cj6sljsfd0dcs0184h7m7awg4
+# version: 21
+
+type Bot implements Node {
+  accessToken: String!
+  createdAt: DateTime!
+  id: ID! @isUnique
+  slackId: String!
+  team: Team @relation(name: "TeamOnBot")
+  updatedAt: DateTime!
+}
+
+type File implements Node {
+  contentType: String!
+  createdAt: DateTime!
+  id: ID! @isUnique
+  name: String!
+  secret: String! @isUnique
+  size: Int!
+  updatedAt: DateTime!
+  url: String! @isUnique
+}
+
+type Team implements Node {
+  bot: Bot @relation(name: "TeamOnBot")
+  createdAt: DateTime!
+  id: ID! @isUnique
+  name: String!
+  slackId: String! @isUnique
+  updatedAt: DateTime!
+  users: [User!]! @relation(name: "UserOnTeam")
+}
+
+type User implements Node {
+  accessToken: String!
+  createdAt: DateTime!
+  id: ID! @isUnique
+  slackId: String! @isUnique
+  team: Team @relation(name: "UserOnTeam")
+  updatedAt: DateTime!
+}

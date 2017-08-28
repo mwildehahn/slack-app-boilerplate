@@ -1,0 +1,49 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "gotoSymbolStack.currentStackPosition": 4,
+    "gotoSymbolStack.maxStackPosition": 5,
+    "gotoSymbolStack.filePositionInfo": [
+        {
+            "textFile": "/Users/mh/labs/qbot/server/middleware/authentication.js",
+            "viewColumn": 1,
+            "textPosition": {
+                "line": 81,
+                "character": 19
+            }
+        },
+        {
+            "textFile": "/Users/mh/labs/qbot/server/middleware/authentication.js",
+            "viewColumn": 1,
+            "textPosition": {
+                "line": 52,
+                "character": 9
+            }
+        },
+        {
+            "textFile": "/Users/mh/labs/qbot/server/middleware/authentication.js",
+            "viewColumn": 1,
+            "textPosition": {
+                "line": 60,
+                "character": 19
+            }
+        },
+        {
+            "textFile": "/Users/mh/labs/qbot/server/graphql/queries.js",
+            "viewColumn": 1,
+            "textPosition": {
+                "line": 2,
+                "character": 22
+            }
+        },
+        {
+            "textFile": "/Users/mh/labs/qbot/node_modules/apollo-client/ApolloClient.js",
+            "viewColumn": 2,
+            "textPosition": {
+                "line": 99,
+                "character": 33
+            }
+        }
+    ]
+}

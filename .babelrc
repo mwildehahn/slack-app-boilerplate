@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "next/babel",
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "lodash"
+  ]
+}
